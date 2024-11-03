@@ -6,15 +6,6 @@ import {
   backend,
   creator,
   web,
-  javascript,
-  html,
-  css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
-  git,
   meta,
   starbucks,
   tesla,
@@ -24,6 +15,17 @@ import {
   project4,
   linkedin,
   github,
+  collab,
+  data,
+  excel,
+  ml,
+  mysql,
+  problem,
+  python,
+  sql,
+  statistics,
+  tableau,
+  team
 } from "../assets";
 
 // Navbar Links
@@ -46,26 +48,26 @@ export const NAV_LINKS = [
   {
     id: "source-code",
     title: "Source Code",
-    link: "https://github.com/Anonymous-IITBHU",
+    link: "https://github.com/Kanhaiya2002",
   },
 ] as const;
 
 // Services
 export const SERVICES = [
   {
-    title: "Web Developer",
+    title: "Data Analyst",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Consultant",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Product Analyst",
     icon: backend,
   },
   {
-    title: "Competetive Programmer",
+    title: "Business Analyst",
     icon: creator,
   },
 ] as const;
@@ -73,85 +75,115 @@ export const SERVICES = [
 // Technologies
 export const TECHNOLOGIES = [
   {
-    name: "HTML 5",
-    icon: html,
+    name: "python",
+    icon: python,
   },
   {
-    name: "CSS",
-    icon: css,
+    name: "ml",
+    icon: ml,
   },
   {
-    name: "JavaScript",
-    icon: javascript,
+    name: "collab",
+    icon: collab,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "excel",
+    icon: excel,
   },
   {
-    name: "React JS",
-    icon: reactjs,
+    name: "data",
+    icon: data,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "mysql",
+    icon: mysql,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "tableau",
+    icon: tableau,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "team",
+    icon: team,
   },
   {
-    name: "git",
-    icon: git,
+    name: "problem",
+    icon: problem,
   },
   {
-    name: "github",
-    icon: github,
+    name: "statistics",
+    icon: statistics,
+  },
+  {
+    name: "sql",
+    icon: sql,
   },
 ] as const;
 
 // Experiences
 export const EXPERIENCES = [
   {
-    title: "Software Engineer Intern",
-    company_name: "Incipient Technologies",
+    title: "Data Analytics Intern",
+    company_name: "Costylee Apparels Private Limited",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "May 2023 - July 2023",
+    date: "May 2024 - July 2024",
     points: [
-      "Worked with the Django development team with Responsibility for bug fixtures and site maintenance.",
-      "Implemented mass newsletter mailing and subscription system by customizing TinyMCE to create email templates.",
-      "Added question recommendation system for quiz using cosine similarity and NumPy.",
-      "Customized user dashboard for stats and results display integration of OAuth social networking API, merged existing Django requests to Ajax.",
+      "Performed data cleaning and pre-processing on a dataset of 50,000+ records using Numpy and Pandas libraries.",
+      "Applied Logistic Regression for customer segmentation using statistical techniques and machine learning tools.",
+      "Developed a customer retention strategy based on insights to target key customers, leading to a 4% increase.",
+      "Enhanced overall sales performance by leveraging data-driven approaches to reduce customer dropout rates.",
     ],
   },
   {
-    title: "Joint General Secretary",
-    company_name: "Games and Sports Council, IIT BHU",
+    title: "Festivals Committee Convener",
+    company_name: "Students' Parliament IIT BHU",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Apr 2022 - Apr 2023",
+    date: "Sep 2024 - Present",
     points: [
-      "Responsible for managing the sports activities of IIT (BHU) of more than 7000 students.",
-      "Made the Financial-Budget of the Sports Council budgeted for the whole Council, including equipment for 18 different sports, plus all year-round activities, amounted to over 10 Million Rupees.",
-      "Managed and Designed the flow of events including Inter-IIT Sports Meet , Spardha(IIT BHU) , Aavhan(IIT Bombay).",
+      "Led IIT BHU's major festivals—Spardha, Kashiyatra, and Technex—each attracting over 15,000 attendees, including the management of high-profile pro-nights.",
+      "Managed a budget of ₹2.5 Crores across festivals, ensuring optimal allocation and financial efficiency.",
+      "Increased event participation by 25% and introduced streamlined guidelines for registration and pass distribution.",
+      "Coordinated logistics and safety operations, securing permissions from college authorities and local police for seamless pro-night execution."
     ],
   },
   {
-    title: "Contingent Leader of IIT BHU",
-    company_name: "Aavhan (IIT Bombay)",
-    icon: meta,
+    title: "Training and Placement Cell Coordinator",
+    company_name: "IIT BHU",
+    icon: tesla,
     iconBg: "#E6DEDD",
-    date: "March'23",
+    date: "March 2022 - Present",
     points: [
-      "Contingent Leader - Aavhan (IIT Bombay)",
-      "Contingent Leader of the Institute team of100+ Athletes from 6 different sports for Aavhan'23 - the Annual Sports fest of IIT Bombay.",
+      "Part of a team responsible for the annual campus placements and internships of 1000+ students.",
+      "Collected and recorded 200+ leads ranging from top recruiters to alumni for the campus recruitment drive.",
+      "Point of contact for all internship and placement-related queries for the Civil Department, helping 150+ Students."
     ],
   },
+  {
+    title: "Co-convener",
+    company_name: "Shilp'24 IIT BHU",
+    icon: tesla,
+    iconBg: "#E6DEDD",
+    date: "Jan 2024 - Apr 2024",
+    points: [
+      "Led a team of 100+ in organizing events, workshops, and Guest talks for Shilp, the Civil Engineering Society's fest.",
+      "Collaborated with 5+ industry partners to host impactful workshops, seminars, competitions, and CSR initiatives.",
+      "Successfully attracted and managed 250+ participants, driving engagement and ensuring the success of the fest."
+    ],
+  },
+  {
+    title: "Event Manager",
+    company_name: "SHE | An event based on Women Empowerment | TECHNEX'23",
+    icon: tesla,
+    iconBg: "#E6DEDD",
+    date: "March 2023",
+    points: [
+      "Led a team of 5 in organizing a large-scale event, successfully coordinating all aspects to facilitate participation from over 50 teams.",
+      "Secured event sponsorships, proactively reaching out to potential sponsors to ensure robust financial support and enhance the event's profile.",
+      "Managed end-to-end planning, including scheduling, securing judges, and overseeing timelines to ensure smooth execution and a memorable experience for all participants."
+    ],
+  }
 ] as const;
 
 // Testimonials
@@ -185,92 +217,70 @@ export const TESTIMONIALS = [
 // Projects
 export const PROJECTS = [
   {
-    name: "Food Hut – E Commerce",
+    name: "Business statistics and Analysis Capstone Project",
     description:
-      "Created an ECommerce app which provides user a catalog of products available for purchase in the restaurant. Used Express.js and Node.js to build a RestAPI that handles data flow between the server and client.",
+      "Merged and cleaned American Housing Survey data from 2007, 2009, 2011, and 2013 to ensure data integrity. Conducted Hypothesis Testing to compare market values between vacant and occupied houses. Developed a Predictive Model using Linear Regression in MS Excel, withHoldout Analysis to validate accuracy.",
     tags: [
       {
-        name: "react",
+        name: "Python",
         color: "blue-text-gradient",
       },
       {
-        name: "node",
+        name: "MS Excel",
         color: "green-text-gradient",
       },
       {
-        name: "mongoDB",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: project1,
-    source_code_link: "https://github.com/Anonymous-IITBHU/food-hut-front",
-    live_site_link: "https://food-hut-mocha.vercel.app/",
-  },
-  {
-    name: "Split Wise Application",
-    description:
-      "Built a dynamic React app for easy expense splitting among specified individuals. Used React components for dynamic rendering of input fields, optimizing scalability and user customization.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "reactRouter",
-        color: "green-text-gradient",
-      },
-      {
-        name: "ReactComponent",
+        name: "Google Collab",
         color: "pink-text-gradient",
       },
     ],
     image: project2,
-    source_code_link: "https://github.com/Anonymous-IITBHU/split-wise-application",
-    live_site_link: "https://split-wise-application-phi.vercel.app/",
+    source_code_link: "#",
+    live_site_link: "#",
   },
   {
-    name: "Algorithm Visualizer",
+    name: "Data Analysis on Employee Data",
     description:
-      "Developed a website that helps in visualizing various Sorting and Path Finding Algorithms.Implemented sorting algorithms : merge, quick, selection, bubble, and insertion sort and Breadtdh first Search and Dijkstra's Algorithm for dynamic visualization.",
+      "Merged multiple tables of Employee datasets and Performed Data Analysis using MySQL Workbench. Executed advanced SQL queries for department-wise analysis of KPIs like salary, employee counts, gender ratio. Transferred the data & organized different charts into an Interactive Dashboard using Tableau Public.",
     tags: [
       {
-        name: "HTML",
+        name: "Tableau",
         color: "blue-text-gradient",
       },
       {
-        name: "CSS",
+        name: "SQL",
         color: "green-text-gradient",
       },
       {
-        name: "JavaScript",
+        name: "MySQL",
         color: "pink-text-gradient",
       },
     ],
     image: project3,
-    source_code_link: "https://github.com/Anonymous-IITBHU/Algorithm-Visualizer",
-    live_site_link: "https://algorithm-visualizer-tawny.vercel.app/",
+    source_code_link: "#",
+    live_site_link: "#",
   },
   {
-    name: "Django Poll Application",
+    name: "Identification of Fraudelent Credit Card Transactions",
     description:
-      "Curated a full - featuredPolling Web Application using Django. Implemented the feature to login , register, create, update, add and delete polls.",
+      "Employed Pandas and Seaborn for visualizing and pre-processing a highly imbalanced dataset. Achieved a 93% classification recall by optimizing Logistic Regression, KNN, and Decision Tree models. ",
     tags: [
       {
-        name: "Django",
+        name: "Logoistic Regression",
         color: "blue-text-gradient",
       },
       {
-        name: "DjangoMVT",
+        name: "KNN",
         color: "green-text-gradient",
       },
       {
-        name: "djangoPOST",
+        name: "Decision Tree",
         color: "pink-text-gradient",
       },
     ],
     image: project4,
-    source_code_link: "https://github.com/anonymousIITBHU/poll-application",
-    live_site_link: "https://github.com/anonymousIITBHU/poll-application",
+    source_code_link: "https://colab.research.google.com/drive/1-4ojqszv1_LmETmqgAP2LtKIoxb4kbu-#scrollTo=SWPRLFv-E2OO",
+    live_site_link: "#",
   },
 ] as const;
 
@@ -278,11 +288,11 @@ export const SOCIALS = [
   {
     name: "Linkedin",
     icon: linkedin,
-    link: "https://www.linkedin.com/in/mayank-pratap-singh-8280051bb/",
+    link: "https://www.linkedin.com/in/kanhaiya-kumar-264a02200/",
   },
   {
     name: "GitHub",
     icon: github,
-    link: "https://github.com/Anonymous-IITBHU",
+    link: "https://github.com/Kanhaiya2002",
   },
 ] as const;

@@ -50,7 +50,7 @@ export const Navbar = ({ hide }: NavbarProps) => {
           }}
         >
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
-            Mayank&nbsp;<span className="sm:block hidden">| Developer</span>
+            Kanhaiya&nbsp;<span className="sm:block hidden">| Analyst</span>
           </p>
         </Link>
 

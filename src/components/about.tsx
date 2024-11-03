@@ -54,12 +54,7 @@ export const About = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="empty-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          I am Mayank Pratap Singh, Graduated in Mechanical Engineering from IIT(BHU) I am a competitive programmer and
-           I have been doing competitive programming for the past 2.5 years. I have good proficiency in data structures and algorithms,
-            I have solved over 1800 problems on different coding platforms (like code forces, Codechef, and leetcode), and I actively
-             participate in all the coding contests. Apart from competitive programming, I am a full stack developer.
-              I have experience with HTML, CSS, JS,ReactJS and bootstrap as a frontend library and Django, NodeJs as the backend
-               framework. I have skills in C/C++, Python, and Java(basic) programming languages.
+          I’m Kanhaiya Kumar, a data analytics professional from IIT BHU with a background in Civil Engineering. I have a track record of driving business performance through data-driven insights and strategic customer segmentation. Skilled in Python, SQL, Tableau, and MS Excel, I’ve executed projects in fraud detection, business statistics, and advanced data visualization. As a coordinator in the Training and Placement Cell, I’ve managed extensive recruiter networks and supported the career readiness of 1,000+ students. Known for leadership, problem-solving, and commitment to community impact through education and healthcare initiatives.
         </motion.p>
 
         {/* Service Card */}

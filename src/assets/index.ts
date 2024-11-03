@@ -11,19 +11,17 @@ import mobile from "./mobile.png";
 import preview from "./preview.png";
 import web from "./web.png";
 
-import css from "./tech/css.png";
-import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
-import git from "./tech/git.png";
-import html from "./tech/html.png";
-import javascript from "./tech/javascript.png";
-import mongodb from "./tech/mongodb.png";
-import nodejs from "./tech/nodejs.png";
-import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
-import tailwind from "./tech/tailwind.png";
-import threejs from "./tech/threejs.svg";
-import typescript from "./tech/typescript.png";
+import collab from "./tech/collab.png";
+import data from "./tech/data.png";
+import excel from "./tech/excel.png";
+import ml from "./tech/ml.png";
+import mysql from "./tech/mysql.png";
+import problem from "./tech/problem.png";
+import python from "./tech/python.png";
+import sql from "./tech/sql.png";
+import statistics from "./tech/statistics.png";
+import tableau from "./tech/tableau.png";
+import team from "./tech/team.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -54,19 +52,17 @@ export {
   mobile,
   preview,
   web,
-  css,
-  docker,
-  figma,
-  git,
-  html,
-  javascript,
-  mongodb,
-  nodejs,
-  reactjs,
-  redux,
-  tailwind,
-  typescript,
-  threejs,
+  collab,
+  data,
+  excel,
+  ml,
+  mysql,
+  problem,
+  python,
+  sql,
+  statistics,
+  tableau,
+  team,
   meta,
   shopify,
   starbucks,

@@ -3,9 +3,9 @@
   "version": "1.1.4",
   "private": true,
   "author": {
-    "name": "Mayank Pratap Singh",
-    "email": "mayank.irna123@gmail.com",
-    "url": "https://github.com/Anonymous-IITBHU"
+    "name": "Kanhaiya Kumar",
+    "email": "kumarkanhaiya2108@gmail.com",
+    "url": "https://github.com/Kanhaiya2002"
   },
   "description": "Modern 3D Portfolio using React, Three.js and Typescript",
   "keywords": [
@@ -23,12 +23,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Anonymous-IITBHU/3d-portfolio.git"
+    "url": "https://github.com/Kanhaiya2002/3d-portfolio.git"
   },
-  "homepage": "https://github.com/Anonymous-IITBHU/3d-portfolio.git",
+  "homepage": "https://github.com/Kanhaiya2002/3d-portfolio.git",
   "bugs": {
-    "url": "https://github.com/Anonymous-IITBHU/3d-portfolio.git",
-    "email": "mayank.irna123@gmail.com"
+    "url": "https://github.com/Kanhaiya2002/3d-portfolio.git",
+    "email": "kumarkanhaiya2108@gmail.com"
   },
   "funding": [
   ],
