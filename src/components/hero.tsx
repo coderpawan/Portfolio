@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { ComputersCanvas } from "./canvas";
 import { styles } from "../styles";
 import { cn } from "../utils/lib";
+import devraj from "../assets/devraj.jpg";
 
 // Hero
 export const Hero = () => {
@@ -11,7 +12,7 @@ export const Hero = () => {
       <div
         className={cn(
           styles.paddingX,
-          "absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5",
+          "absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5"
         )}
       >
         {/* Title */}
@@ -23,12 +24,17 @@ export const Hero = () => {
         {/* About Me */}
         <div>
           <h1 className={cn(styles.heroHeadText, "text-white")}>
-            Hi, I'm <span className="text-[#915eff]">Kanhaiya</span>
+            Hi, I'm <span className="text-[#915eff]">Devraj</span>
           </h1>
           <p className={cn(styles.heroSubText, "mt-2 text-white-100")}>
-            I am a Data Analyst, and <br className="sm:block hidden" />
-            Consultant
+            I am a Dropservicer, and <br className="sm:block hidden" />
+            Freelancer
           </p>
+          <img
+            src={devraj}
+            alt="devraj"
+            className="mt-4 sm:w-44 sm:h-56 w-32 h-40 border-2 border-[#915eff]"
+          />
         </div>
       </div>
 

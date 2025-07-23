@@ -15,11 +15,11 @@ const Footer = () => {
     >
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
         <p className="text-white text-md font-bold flex">
-          &copy; Kanhaiya {new Date().getFullYear()}. All rights reserved.
+          &copy; Devraj {new Date().getFullYear()}. All rights reserved.
         </p>
 
         {/* Nav Links (Desktop) */}
-        <ul className="list-none hidden flex-row sm:flex gap-10">
+        {/* <ul className="list-none hidden flex-row sm:flex gap-10">
           {SOCIALS.map((social) => (
             <li
               key={social.name}
@@ -30,7 +30,7 @@ const Footer = () => {
               </Link>
             </li>
           ))}
-        </ul>
+        </ul> */}
       </div>
     </nav>
   );

@@ -54,7 +54,17 @@ export const About = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="empty-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          I’m Kanhaiya Kumar, a data analytics professional from IIT BHU with a background in Civil Engineering. I have a track record of driving business performance through data-driven insights and strategic customer segmentation. Skilled in Python, SQL, Tableau, and MS Excel, I’ve executed projects in fraud detection, business statistics, and advanced data visualization. As a coordinator in the Training and Placement Cell, I’ve managed extensive recruiter networks and supported the career readiness of 1,000+ students. Known for leadership, problem-solving, and commitment to community impact through education and healthcare initiatives.
+          I’m Devraj Kumar, a dedicated Dropservicer and Freelance Digital
+          Creator specializing in Graphic Design, Web Development, AI Tool
+          Creation, and Digital Marketing. With a Diploma in Computer Science
+          and Engineering from Brainware University, Barasat, I combine
+          technical expertise with creative problem-solving to deliver
+          high-impact digital solutions. I help businesses and individuals
+          enhance their online presence through visually compelling designs,
+          responsive websites, AI-powered tools, and strategic marketing
+          services. Backed by a trusted network of skilled professionals, I
+          provide end-to-end services that are efficient, scalable, and tailored
+          to each client’s unique needs.
         </motion.p>
 
         {/* Service Card */}

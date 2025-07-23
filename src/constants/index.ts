@@ -28,6 +28,16 @@ import {
   team
 } from "../assets";
 
+import Apollo from "../assets/company/apollo.png";
+import Gmail from "../assets/company/gmail.jpg";
+import Outsource from "../assets/company/outsource.jpg";
+import Approve from "../assets/company/approved.jpg";
+import Deal from "../assets/company/deal.png";
+import Nordhavn from "../assets/projects/nordhavn.jpeg";
+import Electronics from "../assets/projects/electronics.png";
+import Social from "../assets/projects/social.png";
+import Webdev from "../assets/projects/webdev.png";
+
 // Navbar Links
 export const NAV_LINKS = [
   {
@@ -36,8 +46,13 @@ export const NAV_LINKS = [
     link: null,
   },
   {
-    id: "work",
-    title: "Work",
+    id: "process",
+    title: "Process",
+    link: null,
+  },
+  {
+    id: "project",
+    title: "Projects",
     link: null,
   },
   {
@@ -45,29 +60,24 @@ export const NAV_LINKS = [
     title: "Contact",
     link: null,
   },
-  {
-    id: "source-code",
-    title: "Source Code",
-    link: "https://github.com/Kanhaiya2002",
-  },
 ] as const;
 
 // Services
 export const SERVICES = [
   {
-    title: "Data Analyst",
+    title: "Web Development",
     icon: web,
   },
   {
-    title: "Consultant",
+    title: "AI Tools",
     icon: mobile,
   },
   {
-    title: "Product Analyst",
+    title: "Graphic Designing",
     icon: backend,
   },
   {
-    title: "Business Analyst",
+    title: "Marketing",
     icon: creator,
   },
 ] as const;
@@ -123,65 +133,65 @@ export const TECHNOLOGIES = [
 // Experiences
 export const EXPERIENCES = [
   {
-    title: "Data Analytics Intern",
+    title: "Lead Generation",
     company_name: "Costylee Apparels Private Limited",
-    icon: starbucks,
+    icon: Apollo,
     iconBg: "#383E56",
-    date: "May 2024 - July 2024",
+    date: "First",
     points: [
-      "Performed data cleaning and pre-processing on a dataset of 50,000+ records using Numpy and Pandas libraries.",
-      "Applied Logistic Regression for customer segmentation using statistical techniques and machine learning tools.",
-      "Developed a customer retention strategy based on insights to target key customers, leading to a 4% increase.",
-      "Enhanced overall sales performance by leveraging data-driven approaches to reduce customer dropout rates.",
+      "Use Apollo.io to filter and extract high-quality leads based on industry, job role, and company size.",
+      "Focus on decision-makers (like founders, CMOs, and marketing heads) who are more likely to need digital services.",
+      "Build a lead list with verified email addresses, company names, and personalized info for targeting.",
+      "Export and organize leads into a CRM or spreadsheet for seamless tracking and follow-up.",
     ],
   },
   {
-    title: "Festivals Committee Convener",
+    title: "Outreach and Mass Mailing",
     company_name: "Students' Parliament IIT BHU",
-    icon: tesla,
+    icon: Gmail,
     iconBg: "#E6DEDD",
-    date: "Sep 2024 - Present",
+    date: "Second",
     points: [
-      "Led IIT BHU's major festivals—Spardha, Kashiyatra, and Technex—each attracting over 15,000 attendees, including the management of high-profile pro-nights.",
-      "Managed a budget of ₹2.5 Crores across festivals, ensuring optimal allocation and financial efficiency.",
-      "Increased event participation by 25% and introduced streamlined guidelines for registration and pass distribution.",
-      "Coordinated logistics and safety operations, securing permissions from college authorities and local police for seamless pro-night execution."
+      "Craft compelling, value-focused email templates that speak directly to the client's pain points.",
+      "Use email automation tools like Lemlist, Instantly, or Mailshake to schedule and send emails in bulk.",
+      "Personalize each email (even at scale) using dynamic variables like {FirstName} or {CompanyName}.",
+      "Follow up with non-responders strategically—typically 2–3 times over 10 days for maximum reply rates."
     ],
   },
   {
-    title: "Training and Placement Cell Coordinator",
+    title: "Closing the Deal",
     company_name: "IIT BHU",
-    icon: tesla,
+    icon: Deal,
     iconBg: "#E6DEDD",
-    date: "March 2022 - Present",
+    date: "Third",
     points: [
-      "Part of a team responsible for the annual campus placements and internships of 1000+ students.",
-      "Collected and recorded 200+ leads ranging from top recruiters to alumni for the campus recruitment drive.",
-      "Point of contact for all internship and placement-related queries for the Civil Department, helping 150+ Students."
+      "Once a client responds, engage them with a clear and confident pitch—focus on results, not just services.",
+      "Discuss project details (goals, timeline, deliverables) and showcase your past work or social proof.",
+      "Be transparent about pricing, offer options if needed, and handle objections with clarity."
     ],
   },
   {
-    title: "Co-convener",
+    title: "Outsourcing the Work",
+    company_name: "IIT BHU",
+    icon: Outsource,
+    iconBg: "#E6DEDD",
+    date: "Fourth",
+    points: [
+      "After the deal is confirmed, delegate the work to a reliable freelancer or service provider in your network.",
+      "Share detailed briefs, brand assets, and deadlines to ensure the freelancer understands the scope fully.",
+      "Always keep quality control in mind—check-in frequently and request milestone updates."
+    ],
+  },
+  {
+    title: "Quality Check and Delivery",
     company_name: "Shilp'24 IIT BHU",
-    icon: tesla,
+    icon: Approve,
     iconBg: "#E6DEDD",
-    date: "Jan 2024 - Apr 2024",
+    date: "Fifth",
     points: [
-      "Led a team of 100+ in organizing events, workshops, and Guest talks for Shilp, the Civil Engineering Society's fest.",
-      "Collaborated with 5+ industry partners to host impactful workshops, seminars, competitions, and CSR initiatives.",
-      "Successfully attracted and managed 250+ participants, driving engagement and ensuring the success of the fest."
-    ],
-  },
-  {
-    title: "Event Manager",
-    company_name: "SHE | An event based on Women Empowerment | TECHNEX'23",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "March 2023",
-    points: [
-      "Led a team of 5 in organizing a large-scale event, successfully coordinating all aspects to facilitate participation from over 50 teams.",
-      "Secured event sponsorships, proactively reaching out to potential sponsors to ensure robust financial support and enhance the event's profile.",
-      "Managed end-to-end planning, including scheduling, securing judges, and overseeing timelines to ensure smooth execution and a memorable experience for all participants."
+      "Review the deliverables thoroughly and ensure they meet your promised standards and client expectations.",
+      "Request revisions from the freelancer if needed before presenting to the client.",
+      "Deliver the final output in a polished, professional manner with proper documentation or presentation."
     ],
   }
 ] as const;
@@ -217,68 +227,68 @@ export const TESTIMONIALS = [
 // Projects
 export const PROJECTS = [
   {
-    name: "Business statistics and Analysis Capstone Project",
+    name: "Brand Identity for “Nordhavn Organics” ",
     description:
-      "Merged and cleaned American Housing Survey data from 2007, 2009, 2011, and 2013 to ensure data integrity. Conducted Hypothesis Testing to compare market values between vacant and occupied houses. Developed a Predictive Model using Linear Regression in MS Excel, withHoldout Analysis to validate accuracy.",
+      "Designed a full branding package for Nordhavn Organics, a Copenhagen-based sustainable skincare brand. The project included a minimalist logo, product packaging design, and a cohesive brand guide to reflect eco-conscious values.",
     tags: [
       {
-        name: "Python",
+        name: "Adobe Illustrator",
         color: "blue-text-gradient",
       },
       {
-        name: "MS Excel",
+        name: "Photoshop",
         color: "green-text-gradient",
       },
       {
-        name: "Google Collab",
+        name: "Figma",
         color: "pink-text-gradient",
       },
     ],
-    image: project2,
+    image: Nordhavn,
     source_code_link: "#",
     live_site_link: "#",
   },
   {
-    name: "Data Analysis on Employee Data",
+    name: "AI-Based Support Bot for “Lexovia Electronics”",
     description:
-      "Merged multiple tables of Employee datasets and Performed Data Analysis using MySQL Workbench. Executed advanced SQL queries for department-wise analysis of KPIs like salary, employee counts, gender ratio. Transferred the data & organized different charts into an Interactive Dashboard using Tableau Public.",
+      "Built and deployed an AI chatbot for Lexovia, an e-commerce electronics retailer in Canada. The bot handled order queries, product suggestions, and customer support, cutting support response time by 60%.",
     tags: [
       {
-        name: "Tableau",
+        name: "OpenAI GPT API",
         color: "blue-text-gradient",
       },
       {
-        name: "SQL",
+        name: "Node.js",
         color: "green-text-gradient",
       },
       {
-        name: "MySQL",
+        name: "Dialogflow",
         color: "pink-text-gradient",
       },
     ],
-    image: project3,
+    image: Electronics,
     source_code_link: "#",
     live_site_link: "#",
   },
   {
-    name: "Identification of Fraudelent Credit Card Transactions",
+    name: "Portfolio Website for “Crypto Nova”",
     description:
-      "Employed Pandas and Seaborn for visualizing and pre-processing a highly imbalanced dataset. Achieved a 93% classification recall by optimizing Logistic Regression, KNN, and Decision Tree models. ",
+      "Built a real-time crypto portfolio tracker and analytics dashboard for CryptoNova, a blockchain startup based in Singapore. The tool featured live price updates, custom watchlists, token performance graphs, and wallet integration for seamless DeFi tracking.",
     tags: [
       {
-        name: "Logoistic Regression",
+        name: "React.js",
         color: "blue-text-gradient",
       },
       {
-        name: "KNN",
+        name: "Web3.js",
         color: "green-text-gradient",
       },
       {
-        name: "Decision Tree",
+        name: "CoinGecko API",
         color: "pink-text-gradient",
       },
     ],
-    image: project4,
+    image: Webdev,
     source_code_link: "https://colab.research.google.com/drive/1-4ojqszv1_LmETmqgAP2LtKIoxb4kbu-#scrollTo=SWPRLFv-E2OO",
     live_site_link: "#",
   },
