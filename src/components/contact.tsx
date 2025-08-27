@@ -99,7 +99,7 @@ export const Contact = () => {
         import.meta.env.VITE_APP_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: "Devraj",
+          to_name: "Kanhaiya",
           from_email: form.email.trim().toLowerCase(),
           to_email: import.meta.env.VITE_APP_EMAILJS_RECIEVER,
           message: form.message,
@@ -134,7 +134,7 @@ export const Contact = () => {
           <h3 className={styles.sectionHeadText}>Contact.</h3>
           <p className={styles.sectionSubText}>
         Contact me directly at my{" "}
-        <Link className="underline" to={"mailto:devrajkumarsahu17@gmail.com"}>
+        <Link className="underline" to={"mailto:kumarkanhaiya2108@gmail.com"}>
           e-mail
         </Link>{" "}
       </p>
@@ -154,7 +154,7 @@ export const Contact = () => {
                 id="name"
                 value={form.name}
                 onChange={handleChange}
-                placeholder="Devraj"
+                placeholder="Kanhaiya"
                 title="What's your name?"
                 disabled={loading}
                 aria-disabled={loading}
@@ -176,7 +176,7 @@ export const Contact = () => {
                 id="email"
                 value={form.email}
                 onChange={handleChange}
-                placeholder="Devraj@gmail.com"
+                placeholder="Kanhaiya@email.com"
                 title="What's your email?"
                 disabled={loading}
                 aria-disabled={loading}

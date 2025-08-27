@@ -91,7 +91,7 @@ const ProjectCard = ({
 // Works
 export const Works = () => {
   return (
-    <SectionWrapper idName="project">
+    <SectionWrapper>
       <>
         {/* Title */}
         <motion.div variants={textVariant()}>
